@@ -21,7 +21,7 @@ cacheSolve <- function(x, ...) {
 	inverse = x$getInverse()
       if (!is.null(inverse)){
 		# check if its available in the cache
-            # get it from the cache and skips the computation. 
+		# get it from the cache and skips the calculation. 
             return(inverse)
       }
        
